@@ -1,6 +1,6 @@
 # Seti
 
-[![Packagecontrol total downloads](https://img.shields.io/packagecontrol/dt/Seti_UI.svg?style=flat-square)](https://packagecontrol.io/packages/Seti_UI/)
+[![Packagecontrol total downloads](https://img.shields.io/packagecontrol/dt/Seti_UI.svg?style=flat-square)](https://packagecontrol.io/Packages/Seti_UI/)
 
 `SublimeText 3 Theme` Port of Seti_UI by [jesseweed](https://github.com/jesseweed/seti-ui)
 
@@ -25,7 +25,7 @@
 
 ### Via Package Control
 
-Theme is listed as [Seti_UI](https://packagecontrol.io/packages/Seti_UI) on Will Bond's [Sublime Package Control](https://packagecontrol.io).
+Theme is listed as [Seti_UI](https://packagecontrol.io/Packages/Seti_UI) on Will Bond's [Sublime Package Control](https://packagecontrol.io).
 
 ### Manual
 

@@ -29,7 +29,7 @@ Theme is listed as [Seti_UI](https://packagecontrol.io/Packages/Seti_UI) on Will
 
 ### Manual
 
-1. [Download the .zip](https://github.com/ctf0/Seti_ST3/archive/master.zip).
+1. [Download the .zip](https://github.com/seriousjokerhd/Custom-seti-ui-theme-for-sublime-text-3/archive/master.zip).
 2. Unzip and rename the folder to `Seti_UI`.
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text.
 4. copy the (Resource/fold.png) "or edit it to ur liking" to `Packages/Theme - Default` to override the default code folding icon.
@@ -71,30 +71,6 @@ Activate the `Theme` by modifying your user preferences file, which you can find
   "Seti_SB_big": true,                    // scrollbars width / height = 10
   "Seti_SB_bright": true,                 // brighter color for scrollbars
 
-// sidebar
-  "Seti_ClosedFolder_same": true,         // same icon as the Opened_folder
-  "Seti_ClosedFolder_remove": true,       // remove closed_folder icon
-  "Seti_ClosedFolder_dots": true,         // change closed_folder icon to dot
-  "Seti_sb_small_padding": true,          // sidebar entries padding = 3
-  "Seti_sb_big_padding": true,            // sidebar entries padding = 10
-  "Seti_sb_tree_med": true,               // sidebar tree padding = 15
-  "Seti_sb_tree_small": true,             // sidebar tree padding = 10
-  "Seti_sb_tree_tiny": true,              // check (issues/88)
-  "Seti_sb_tree_miny": true,              // check (issues/88)
-  "Seti_show_group_arrows": true,         // show the folder/group arrows in sidebar
-  "Seti_sb_no_icons": true,               // check (issues/133)
-  "Seti_sb_blank": true,                  // check (issues/133)
-  "Seti_bold_slctdfile_labels": true,     // make the sidebar selected file text in bold
-  "Seti_sidebar_font_size_12": true,      // check (issues/115)
-  "Seti_sidebar_font_size_13": true,      // check (issues/115)
-  "Seti_sidebar_font_size_14": true,      // check (issues/115)
-  "Seti_sidebar_font_Ubuntu": true,       // check (issues/115)
-  "Seti_sidebar_font_Fira": true,         // check (issues/115)
-  "Seti_sidebar_font_Hack": true,         // check (issues/115)
-  "Seti_sidebar_font_Source": true,       // check (issues/115)
-  "Seti_heading_font_12": true,           // heading font size = 12
-  "Seti_bold_heading": true,              // make heading font in bold
-
 // view
   "Seti_pad_5": true,                     // use with line_padding_bottom / line_padding_top = 5
   "Seti_pad_3": true,                     // use with line_padding_bottom / line_padding_top = 3
@@ -114,6 +90,8 @@ Activate the `Theme` by modifying your user preferences file, which you can find
 
 * No file icon in the opened tabs, ST lacks this.
 * Current line number highlight color, ST lacks this.
+* File type icons changed
+* Sidebar setting options removed
 
 ## Issue A Ticket
 

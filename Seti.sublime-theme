@@ -642,9 +642,22 @@
     {
         "class": "sidebar_heading",
         "color": [170,170,170],
-        "font.bold": true,
+        "font.bold": false,
         "font.size": 11
     },
+    // Options
+    {
+        "class": "sidebar_heading",
+        "settings": ["Seti_heading_font_12"],
+        "font.size": 12
+    },
+    {
+        "class": "sidebar_heading",
+        "settings": ["Seti_bold_heading"],
+        "font.bold": true
+    },
+
+    // Options over
 
     {
         "class": "sidebar_heading",
@@ -659,10 +672,17 @@
     {
         "class": "sidebar_label",
         "color": [170,170,170],
-        "font.bold": true,
+        "font.bold": false,
         "font.size": 12,
         "font.face": "SFNS Display"
 
+    },
+    // Option
+
+    {
+        "class": "sidebar_label",
+        "settings": ["Seti_bold_lable"],
+        "font.bold": true
     },
     {
         "class": "sidebar_label",
@@ -674,9 +694,17 @@
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
         "color": [170,170,170],
-        "font.bold": true,
+        "font.bold": false,
         "font.face": "SFNS Display",
         "font.size": 13,
+    },
+    // Option
+
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row","attributes": ["expandable"]}],
+        "settings": ["bold_folder_labels"],
+        "font.bold": true
     },
    
     {
@@ -689,10 +717,17 @@
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "color": [255,255,255],
-        "font.bold": true
+        "font.bold": false
     },
 
     // options
+
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "settings": ["Seti_bold_slctdfile_labels"],
+        "font.bold": true
+    },
    
 //========================================================
 //  SIDEBAR - OPEN FILE ICONS
